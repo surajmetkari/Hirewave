@@ -1,0 +1,6 @@
+@HireWaveDotnet_HostAddress = http://localhost:5229
+
+GET {{HireWaveDotnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

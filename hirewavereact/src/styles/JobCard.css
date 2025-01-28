@@ -1,0 +1,480 @@
+.job-card-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.job-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: grid;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.job-title {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.apply-btn {
+  background-color: #0aa44d;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.apply-btn:hover {
+  background-color: #0056b3;
+}
+
+/* JobCard.css */
+.modal-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Modal form styling */
+.modal-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Align form elements horizontally to the center */
+}
+
+.modal-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* Center the form vertically */
+}
+
+.form {
+  width: 100%;
+  max-width: 500px;
+  /* Set a max-width for the form */
+  margin: 0 auto;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center align labels and inputs */
+}
+
+.form-group label {
+  width: 100%;
+  text-align: left;
+  /* Align labels to the left */
+}
+
+.custom-input,
+.custom-select {
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.custom-input:focus,
+.custom-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Adjust buttons */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  /* Align buttons to the right */
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* JobApplicationModal.css */
+
+.modal-header {
+  background-color: #007bff;
+  /* Bootstrap primary color */
+  color: #ffffff;
+  /* White text color */
+}
+
+.modal-title {
+  font-weight: bold;
+  /* Bold title */
+}
+
+.modal-body {
+  padding: 20px;
+  /* Padding for the modal body */
+}
+
+.form-label {
+  font-weight: bold;
+  /* Bold labels */
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  /* Rounded corners for inputs */
+  border: 1px solid #ced4da;
+  /* Light grey border */
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  /* Change border color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  /* Bootstrap focus shadow */
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  /* Bootstrap secondary color */
+  border: none;
+  /* Remove border */
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  /* Darker grey on hover */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  /* Bootstrap primary color */
+  border: none;
+  /* Remove border */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+.text-muted {
+  font-size: 0.9rem;
+  /* Slightly smaller font for helper text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .modal-body {
+    padding: 15px;
+    /* Less padding on smaller screens */
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+    /* Smaller font size for labels */
+  }
+}
+
+/* ModalTitle.css */
+
+.title {
+  font-size: 1.5rem;
+  /* Larger font size for emphasis */
+  font-weight: bold;
+  /* Bold text */
+  color: #343a40;
+  /* Dark grey color for the title */
+  text-align: center;
+  /* Center align the title */
+  margin: 0;
+  /* Remove default margin */
+  padding: 15px 0;
+  /* Add vertical padding */
+  border-bottom: 2px solid #007bff;
+  /* Add a bottom border with primary color */
+  background-color: #f8f9fa;
+  /* Light background color for better contrast */
+  border-radius: 0.25rem;
+  /* Slightly rounded corners */
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.25rem;
+    /* Smaller font size on smaller screens */
+  }
+}
+
+/* ModalHeader.css */
+
+.modal-header {
+  background-color: #007bff;
+  /* Bootstrap primary color */
+  color: #ffffff;
+  /* White text color */
+  padding: 15px;
+  /* Padding for the header */
+  border-bottom: none;
+  /* Remove default border */
+  border-radius: 0.25rem 0.25rem 0 0;
+  /* Rounded top corners */
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  /* Larger font size for emphasis */
+  font-weight: bold;
+  /* Bold text */
+  margin: 0;
+  /* Remove default margin */
+  flex: 1;
+  /* Allow title to take available space */
+  text-align: center;
+  /* Center align the title */
+}
+
+.close {
+  color: #ffffff;
+  /* White close button */
+  font-size: 1.5rem;
+  /* Larger close button font */
+  opacity: 0.8;
+  /* Slightly transparent */
+}
+
+.close:hover,
+.close:focus {
+  color: #ffffff;
+  /* White on hover/focus */
+  opacity: 1;
+  /* Fully opaque on hover/focus */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+@media (max-width: 768px) {
+  .modal-title {
+    font-size: 1.25rem;
+    /* Smaller font size on smaller screens */
+  }
+}
+
+/* Modal Styles */
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+
+.modal-body {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.modal-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-control {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Error Text Styles */
+.error-text {
+  color: #e74c3c;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+/* File Input Styles */
+.form-control[type="file"] {
+  padding: 3px;
+}
+
+/* Select Styles */
+.form-control-select {
+  appearance: none;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-control-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modal-body {
+    padding: 15px;
+  }
+
+  .form-group {
+    gap: 10px;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+.job-card-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.job-card-container h3 {
+  color: #343a40;
+}
+
+.job-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: scale(1.02);
+}
+
+.job-title {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.modal-body {
+  max-height: 80vh;
+  /* Adjust height as necessary */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+}
+
+.modal {
+  overflow: hidden;
+  /* Prevent body scrolling when modal is open */
+}
+
+@media (max-width: 768px) {
+  .job-card {
+    width: 90%;
+    /* Full width on smaller screens */
+  }
+}

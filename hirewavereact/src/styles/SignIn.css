@@ -1,0 +1,102 @@
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-image: url('../assets/images/back.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-color: #f4f7fa; 
+}
+
+.signin-box {
+  background: #ba2053;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signin-logo {
+  max-width: 150px; 
+  width: 100%;
+}
+
+.signin-subtitle {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #d4c3c3;
+}
+
+.signin-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signup-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+
+.error-text {
+  font-size: 12px;
+  margin-top: 5px;
+  display: block; /* Ensures it appears below the input field */
+  margin-left: 0;
+}
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* Ensures the input and error message are stacked vertically */
+}

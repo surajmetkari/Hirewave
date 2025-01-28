@@ -1,0 +1,45 @@
+/* Style the logout button */
+.logout-btn {
+    padding: 5px 12px; 
+    font-size: 0.9rem;  
+    height: 30px;       
+    width: auto;        
+    border-radius: 15px;
+  }
+  /* Increase the height of the navbar */
+.navbar {
+    padding-top: 5rem;  
+    padding-bottom: 1rem; 
+    height: auto;         
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem; 
+  }
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3;
+    background: white;
+  }
+  
+  .logout-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    margin-top: 5px;
+  }
+  .collapse {
+    background-color: #f8f9fa; 
+    max-height: 300px; 
+    overflow-y: auto; 
+    border-radius: 5px;
+   
+  }

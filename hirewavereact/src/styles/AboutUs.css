@@ -1,0 +1,167 @@
+
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../assets/bg2.jpg') no-repeat center center/cover;  
+  color: #333;
+}
+
+/* About Us container */
+.about-us-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto; 
+  background-color: #FFF0F5; 
+  margin-top: 120px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header and section titles */
+
+.about-us-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+ .about-us-content h2
+{
+  font-family: 'Roboto', sans-serif;
+  color: #34495e;
+  margin-top: 20px;
+} 
+
+.welcome-heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; 
+  font-size: 3rem; 
+  font-weight: bold; 
+  color: #010b16; 
+  text-align: center; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+ 
+
+  text-shadow: 2px 2px 5px rgba(125, 7, 7, 0.86); 
+}
+
+.founders-heading {
+  font-family: "Montserrat", sans-serif; 
+  font-weight: bold;
+  color: #02070d; 
+  text-align: center;
+  margin: 40px 0 20px; 
+  border-bottom: 2px solid #00060c; 
+  display: inline-block; 
+}
+
+.about-us-content h3 {
+  color: #34495e;
+  margin-top: 20px;
+}
+
+/* Paragraph styles */
+.about-us-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Offer section styling */
+.offer-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.offer {
+  flex: 1;
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offer h4 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.offer p {
+  font-size: 15px;
+  color: #444;
+}
+
+/* Team members section */
+.team-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-card {
+  background-color: #f5f5f5;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(13, 9, 9, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.team-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 10px 0 5px;
+}
+
+.team-cdac {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .about-us-content h2,
+  .about-us-content h3 {
+    text-align: center;
+  }
+
+  .offer-section {
+    flex-direction: column;
+  }
+
+  .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-card {
+    width: 100%;
+    max-width: 300px;
+  }
+} 

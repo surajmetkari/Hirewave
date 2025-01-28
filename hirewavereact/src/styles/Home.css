@@ -1,0 +1,140 @@
+/* Responsive Design */
+.navbar {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: auto;
+}
+
+.nav-link {
+    padding: 0.5rem 0.8rem;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.hirewaves-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* Adjust size */
+    font-weight: 700; /* Bold text */
+    color: #93094c; /* Attractive color */
+    text-shadow: 1px 1px 2px #6c757d; /* Subtle shadow */
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .hirewaves-name:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    color: #0056b3; /* Darker blue on hover */
+  }
+/*Section-2*/
+.section-container {
+    background-color: #e9edf2;
+    padding: 60px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Paragraph Styles */
+.section-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #9f3d63;
+    margin-bottom: 30px;
+}
+
+/* Footer container styling */
+.footer-container {
+    width: 100%;
+    background-color: #26272b;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo image styling */
+.footer-logo-image {
+    width: 120px;
+    /* Adjust this value for desired logo width */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* First Column styling (Logo + Text) */
+.col-md-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    /* Space between columns */
+}
+
+/* Footer text styling */
+.footer-container p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Second Column styling (Quick Links) */
+h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00aaff;
+}
+
+/* Third Column styling (Contact Details) */
+.footer-contact {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-contact li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-contact li strong {
+    color: #00aaff;
+}
+
+/* Bottom copyright text */
+.footer-container p:last-child {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .footer-container {
+        text-align: center;
+    }
+    .col-md-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-logo-image {
+        width: 100px;
+    }
+}

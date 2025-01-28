@@ -1,0 +1,94 @@
+.nav-link .fa-user {
+    font-size: 1.5rem; /* Adjust size */
+    color: #007bff; /* Set color */
+  }
+  
+  .nav-link:hover .fa-user {
+    color: #0056b3; /* Change color on hover */
+  }
+
+  /* JobSeekerProfile Styling */
+  .profile-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f3f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 14px;
+    color: #0c0c0c;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #0a0a0a;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.cancel {
+    background-color: #6c757d;
+  }
+  
+  button.cancel:hover {
+    background-color: #5a6268;
+  }
+  
+  .profile-actions {
+    display: flex;
+    gap: 10px; /* Adjust the gap size as needed */
+  }
+  
+  .save-button, .cancel-button, .edit-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(222, 126, 126);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .profile-container {
+      padding: 15px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

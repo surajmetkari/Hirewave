@@ -1,0 +1,8 @@
+.nav-link .fa-user {
+    font-size: 1.5rem; /* Adjust size */
+    color: #007bff; /* Set color */
+  }
+  
+  .nav-link:hover .fa-user {
+    color: #0056b3; /* Change color on hover */
+  }
